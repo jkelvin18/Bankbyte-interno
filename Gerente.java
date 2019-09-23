@@ -1,7 +1,7 @@
 
 public class Gerente extends Funcionario implements Autenticavel{
 
-	public AutenticacaoUtil autenticador;
+	private AutenticacaoUtil autenticador;
 	
 	public Gerente() {
 		this.autenticador = new AutenticacaoUtil();

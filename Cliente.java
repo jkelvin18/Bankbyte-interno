@@ -4,7 +4,7 @@ public class Cliente implements Autenticavel{
     private String cpf;
     private String profissao;
     
-	public AutenticacaoUtil autenticador;
+	private AutenticacaoUtil autenticador;
 	
 	public Cliente() {
 		this.autenticador = new AutenticacaoUtil();
